@@ -4,3 +4,7 @@ package-lock.json
 
 # Build files
 dist/*
+vendor.js
+webpack.config.js
+index.html
+app.bundle.js
