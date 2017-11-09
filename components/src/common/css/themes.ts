@@ -16,8 +16,7 @@ export const ALL_THEMES = {
     },
     solarizedDark: {
         primary: {
-            // content: '#839496',
-            content: '#839497',
+            content: '#839496',
             background: '#002b36',
         },
         secondary: {
