@@ -9,21 +9,22 @@ export const ALL_THEMES = {
             content: 'white',
             background: 'darkslategray',
         },
-        highlight:  {
+        highlight: {
             content: 'white',
             background: 'black',
         },
     },
     solarizedDark: {
         primary: {
-            content: '#839496',
+            // content: '#839496',
+            content: '#839497',
             background: '#002b36',
         },
         secondary: {
             content: '#586e75',
             background: '#00212b',
         },
-        highlight:  {
+        highlight: {
             content: '#93a1a1',
             background: '#073642',
         },
@@ -37,7 +38,7 @@ export const ALL_THEMES = {
             content: '#93a1a1',
             background: '#fcf9f3',
         },
-        highlight:  {
+        highlight: {
             content: '#586e75',
             background: '#eee8d5',
         },
