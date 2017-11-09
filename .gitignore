@@ -1,9 +1,12 @@
 # Node
-node_modules/*
+node_modules
+common/temp
 package-lock.json
+*.log
 
 # Build files
 dist/*
+lib
 vendor.js
 webpack.config.js
 index.html
