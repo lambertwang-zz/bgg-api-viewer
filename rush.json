@@ -2,7 +2,7 @@
     "rushVersion": "4.0.0",
     "npmVersion": "4.6.1",
     "nodeSupportedVersionRange": ">=6.11.0 <7.0.0",
-
+    "hotfixChangeEnabled": true,
     "projects": [
         {
             "packageName": "bgg_api_viewer",
@@ -15,4 +15,4 @@
         }
     ]
 }
-
+}
