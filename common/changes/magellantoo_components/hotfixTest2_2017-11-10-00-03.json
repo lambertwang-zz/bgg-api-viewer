@@ -1,0 +1,11 @@
+{
+  "changes": [
+    {
+      "packageName": "magellantoo_components",
+      "comment": "Hotfix change",
+      "type": "hotfix"
+    }
+  ],
+  "packageName": "magellantoo_components",
+  "email": "law@microsoft.com"
+}
