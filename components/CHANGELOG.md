@@ -1,6 +1,13 @@
 # Change Log - magellantoo_components
 
-This log was last generated on Thu, 09 Nov 2017 23:30:11 GMT and should not be manually modified.
+This log was last generated on Thu, 09 Nov 2017 23:59:27 GMT and should not be manually modified.
+
+## 0.1.2
+Thu, 09 Nov 2017 23:59:27 GMT
+
+### Patches
+
+- Patch
 
 ## 0.1.1
 Thu, 09 Nov 2017 23:30:11 GMT
