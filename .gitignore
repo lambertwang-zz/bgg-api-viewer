@@ -3,6 +3,7 @@ node_modules
 common/temp
 package-lock.json
 *.log
+*.swp
 
 # Build files
 dist/*
