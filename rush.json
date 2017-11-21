@@ -6,7 +6,8 @@
     "projects": [
         {
             "packageName": "bgg_api_viewer",
-            "projectFolder": "app"
+            "projectFolder": "app",
+            "shouldPublish": true
         },
         {
             "packageName": "magellantoo_components",

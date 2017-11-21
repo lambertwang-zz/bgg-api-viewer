@@ -1,0 +1,17 @@
+{
+  "name": "bgg_api_viewer",
+  "entries": [
+    {
+      "version": "0.0.1-hotfix.0",
+      "tag": "bgg_api_viewer_v0.0.1-hotfix.0",
+      "date": "Tue, 21 Nov 2017 23:01:26 GMT",
+      "comments": {
+        "dependency": [
+          {
+            "comment": "Updating dependency \"magellantoo_components\" from `0.1.2-hotfix.0` to `0.1.2-hotfix.1`"
+          }
+        ]
+      }
+    }
+  ]
+}
