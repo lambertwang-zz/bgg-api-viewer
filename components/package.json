@@ -1,6 +1,6 @@
 {
   "name": "magellantoo_components",
-  "version": "0.1.2",
+  "version": "0.1.2-hotfix.0",
   "description": "My github pages",
   "main": "lib/index",
   "typings": "lib/index",
