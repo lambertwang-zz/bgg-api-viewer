@@ -2,6 +2,18 @@
   "name": "magellantoo_components",
   "entries": [
     {
+      "version": "1.0.0",
+      "tag": "magellantoo_components_v1.0.0",
+      "date": "Tue, 21 Nov 2017 23:13:10 GMT",
+      "comments": {
+        "major": [
+          {
+            "comment": "Bump"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.1.2",
       "tag": "magellantoo_components_v0.1.2",
       "date": "Thu, 09 Nov 2017 23:59:27 GMT",

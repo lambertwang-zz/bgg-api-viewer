@@ -1,0 +1,22 @@
+{
+  "name": "bgg_api_viewer",
+  "entries": [
+    {
+      "version": "1.0.0",
+      "tag": "bgg_api_viewer_v1.0.0",
+      "date": "Tue, 21 Nov 2017 23:13:10 GMT",
+      "comments": {
+        "major": [
+          {
+            "comment": "Bump"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"magellantoo_components\" from `0.1.2` to `1.0.0`"
+          }
+        ]
+      }
+    }
+  ]
+}
