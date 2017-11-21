@@ -2,6 +2,18 @@
   "name": "magellantoo_components",
   "entries": [
     {
+      "version": "1.0.0-hotfix.0",
+      "tag": "magellantoo_components_v1.0.0-hotfix.0",
+      "date": "Tue, 21 Nov 2017 23:15:03 GMT",
+      "comments": {
+        "hotfix": [
+          {
+            "comment": "Bump 2"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.0.0",
       "tag": "magellantoo_components_v1.0.0",
       "date": "Tue, 21 Nov 2017 23:13:10 GMT",

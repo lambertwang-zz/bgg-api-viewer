@@ -1,6 +1,6 @@
 {
   "name": "bgg_api_viewer",
-  "version": "1.0.0",
+  "version": "1.0.0-hotfix.0",
   "description": "My github pages",
   "main": "src/index.tsx",
   "dependencies": {
@@ -9,7 +9,7 @@
     "react-redux": "^5.0.6",
     "redux": "^3.7.2",
     "typescript": "^2.5.2",
-    "magellantoo_components": "1.0.0"
+    "magellantoo_components": "1.0.0-hotfix.0"
   },
   "devDependencies": {
     "@types/node": "^8.0.31",
