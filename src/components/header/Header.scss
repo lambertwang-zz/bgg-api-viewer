@@ -1,0 +1,49 @@
+@import '../../common/common';
+
+.header {
+    display: inline-flex;
+    width: 100%;
+
+    font-size: 32px;
+
+    &.isFullWidth {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+
+        animation: headerDrop $duration-fast $ease-out;
+        border: 2px solid var(--black);
+    }
+
+    .header-left, .header-right {
+        height: 100%;
+        .menuItem .icon {
+            line-height: 2em;
+        }
+    }
+
+    .menuItem {
+        display: inline-block;
+    }
+
+    .header-title {
+        display: inline;
+        margin: auto;
+
+        span {
+            white-space: nowrap;
+        }
+        text-overflow: ellipsis;
+    }
+}
+
+@keyframes headerDrop {
+    0% {
+        transform: translate(0, -100%);
+    }
+
+    100% {
+        transform: translate(0, 0%);
+    }
+}

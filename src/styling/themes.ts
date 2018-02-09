@@ -1,0 +1,66 @@
+export const theme_solarized = {
+    '--base03'  : '#002b36',
+    '--base02'  : '#073642',
+    '--base01'  : '#586e75',
+    '--base00'  : '#657b83',
+    '--base0'   : '#839496',
+    '--base1'   : '#93a1a1',
+    '--base2'   : '#eee8d5',
+    '--base3'   : '#fdf6e3',
+    '--red'     : '#dc322f',
+    '--orange'  : '#cb4b16',
+    '--yellow'  : '#b58900',
+    '--green'   : '#859900',
+    '--cyan'    : '#2aa198',
+    '--blue'    : '#268bd2',
+    '--violet'  : '#6c71c4',
+    '--magenta' : '#d33682',
+    '--black'   : 'black',
+    '--white'   : 'white',
+}
+
+export const theme_base16_material = {
+    '--base03': '#263238',
+    '--base02': '#2E3C43',
+    '--base01': '#314549',
+    '--base00': '#546E7A',
+    '--base0': '#B2CCD6',
+    '--base1': '#EEFFFF',
+    '--base2': '#EEFFFF',
+    '--base3': '#FFFFFF',
+    '--red'     : '#F07178',
+    '--orange'  : '#F78C6C',
+    '--yellow'  : '#FFCB6B',
+    '--green'   : '#C3E88D',
+    '--cyan'    : '#89DDFF',
+    '--blue'    : '#82AAFF',
+    '--violet'  : '#C792EA',
+    '--magenta'   : '#FF5370',
+    '--black'   : 'black',
+    '--white'   : 'white',
+}
+
+// Color themes
+export const semantic_theme_names_dark: { [key: string]: string } = {
+    '--background-base'     : '--black',
+    '--background'          : '--base03',
+    '--background-highlight': '--base02',
+    '--background-hover'    : '--base01',
+    '--background-active'   : '--base00',
+    '--content-primary'     : '--base0',
+    '--content-highlight'   : '--base1',
+    '--content-hover'       : '--base2',
+    '--content-active'      : '--base3',
+}
+
+export const semantic_theme_names_light: { [key: string]: string } = {
+    '--background-base'     : '--white',
+    '--background'          : '--base3',
+    '--background-highlight': '--base2',
+    '--background-hover'    : '--base1',
+    '--background-active'   : '--base0',
+    '--content-primary'     : '--base00',
+    '--content-highlight'   : '--base01',
+    '--content-hover'       : '--base02',
+    '--content-active'      : '--base03',
+}

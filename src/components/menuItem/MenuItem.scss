@@ -1,0 +1,27 @@
+@import '../../common/common';
+
+.menuItem {
+    text-align: center;
+    padding-right: .4em;
+
+    .label-container {
+        display: inline-block;
+    }
+    .icon {
+        width: 1em;
+    }
+    .icon, span {
+        padding-left: .4em;
+        font-size: 1em;
+    }
+}
+
+.withLabel {
+    i {
+        vertical-align: top;
+    }
+}
+
+.menuItem, .menuItem i, .menuItem span {
+    transition: all $duration-fast $ease-out;
+}

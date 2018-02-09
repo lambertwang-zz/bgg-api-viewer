@@ -1,16 +1,42 @@
 {
-    "name": "bgg_api_viewer_repo",
-    "version": "1.0.0",
-    "description": "Nothing yet.",
-    "private": true,
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/magellantoo/bgg-api-viewer"
-    },
-    "scripts": {},
-    "license": "MIT",
-    "devDependencies": {
-        "@microsoft/rush": "4.0.0"
-    },
-    "dependencies": {}
+  "name": "bgg_api_viewer",
+  "version": "0.0.2",
+  "description": "My web site",
+  "main": "src/index.tsx",
+  "dependencies": {
+    "react": "^16.1.0",
+    "react-dom": "^16.1.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "typescript": "^2.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.31",
+    "@types/react": "^16.0.22",
+    "@types/react-dom": "^16.0.3",
+    "@types/react-redux": "^5.0.9",
+    "awesome-typescript-loader": "^3.2.3",
+    "css-loader": "^0.28.7",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2"
+  },
+  "scripts": {
+    "build": "rm -rf dist && mkdir dist && webpack --progress --colors",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "webpack-dev-server --progress --colors --inline --hot --host 10.121.24.189"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lambertwang/magellantoo.github.io.git"
+  },
+  "author": "Lambert Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lambertwang/magellantoo.github.io/issues"
+  },
+  "homepage": "https://github.com/lambertwang/magellantoo.github.io#readme"
 }

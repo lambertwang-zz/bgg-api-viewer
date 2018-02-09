@@ -1,0 +1,48 @@
+@import '../../common/common';
+
+.thingView-header {
+    .thingView-header-info .thingView-header-tag {
+        &.primary {
+            background: linear-gradient(
+                90deg,
+                rgba(black, 0.0),
+                rgba(black, 0.0) 30%,
+                var(--background));
+        }
+        &.highlight {
+            background: linear-gradient(
+                90deg,
+                rgba(black, 0.0),
+                rgba(black, 0.0) 30%,
+                var(--background-highlight));
+        }
+    }
+}
+
+.thingView-header {
+    white-space: nowrap;
+    overflow: hidden;
+
+    .image-container {
+        float: left;
+    }
+
+    .thingView-header-info {
+        vertical-align: top;
+
+        .thingView-header-tag {
+            padding: 6px;
+            display: block;
+            text-align: right;
+        }
+    }
+}
+
+.thingView-description {
+    p {
+        font-size: 14px;
+        margin: 0;
+        padding: 6px;
+        text-indent: 32px;
+    }
+}
